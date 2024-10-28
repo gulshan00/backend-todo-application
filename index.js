@@ -216,7 +216,7 @@ const pool = require("./db");
 app.use(cors());
 app.use(express.json());
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 
 // Add a new todo with recurrence options
 app.post("/todos", async (req, res) => {
